@@ -1,6 +1,6 @@
 /*Crea un array vuoto. Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo nell’array.*/
 
-let arrayShots = [];
+let arrayEven = [];
 
 for(i=0; i< 6; i++){
     let number = parseInt(prompt("inserisci un numero"))
@@ -14,7 +14,7 @@ for(i=0; i< 6; i++){
 
     else{
         console.log(`hai inserito un numero dispari ${number}`)
-        arrayShots.push(number);
-        console.log(arrayShots);
+        arrayEven.push(number);
+        console.log(arrayEven);
     }
 }
